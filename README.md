@@ -40,4 +40,3 @@ Use during procurement - Provide a basis for specifying application security ver
 ### [V14: Configuration Verification Requirements](Security%20Playbook/6.%20Maintain%20interest.md)
 
 ---
-# Simplified diagram

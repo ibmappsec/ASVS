@@ -1,12 +1,8 @@
 
 
-# The Aim Of ASVS?
-The primary aim of the OWASP Application Security Verification Standard (ASVS) Project is to normalize the range in the coverage and level of rigor available in the market when it comes to performing Web application security verification using a commercially-workable open standard. The standard provides a basis for testing application technical security controls, as well as any technical security controls in the environment, that are relied on to protect against vulnerabilities such as Cross-Site Scripting (XSS) and SQL injection. This standard can be used to establish a level of confidence in the security of Web applications. The requirements were developed with the following objectives in mind:
-
-
 # V1: Architecture, Design and Threat Modeling Requirements Table of Contents
 
-### [V1: Architecture, Design and Threat Modeling Requirements](Security%20Playbook/1.%20Identify%20teams.md)
+### [V1.1: Secure Software Development Lifecycle Requirements](V1/V1.1%20SSDLC.md)
 ### [V2: Authentication Verification Requirements](Security%20Playbook/2.%20Define%20the%20role.md)
 ### [V3: Session Management Verification Requirements](Security%20Playbook/3.%20Nominate%20Champions.md)
 ### [V4: Access Control Verification Requirements](Security%20Playbook/4.%20Set%20up%20communication%20channels.md)
