@@ -1,23 +1,16 @@
 # Intro
-Security Champions Playbook is a project started in preparation for the presentation ["Security Champions 2.0"](https://www.owasp.org/images/3/3c/OWASP_Bucharest_2017_Antukh.pdf) at OWASP Bucharest AppSec Conference 2017. It describes the main steps for fast establishment of a Security Champions program regardless of the company size and maturity of the existing security processes.
+The OWASP Application Security Verification Standard (ASVS) Project provides a basis for testing web application technical security controls and also provides developers with a list of requirements for secure development.
+https://www.owasp.org/index.php/Category:OWASP_Application_Security_Verification_Standard_Project
 
 
-# Who are the Security Champions?
-According to OWASP definition, Security Champions are "active members of a team that may help to make decisions about when to engage the Security Team". They act as a core element of security assurance process within the product or service, and hold the role of the Single Point of Contact (SPOC) within the team.
+# The Aim Of ASVS?
+The primary aim of the OWASP Application Security Verification Standard (ASVS) Project is to normalize the range in the coverage and level of rigor available in the market when it comes to performing Web application security verification using a commercially-workable open standard. The standard provides a basis for testing application technical security controls, as well as any technical security controls in the environment, that are relied on to protect against vulnerabilities such as Cross-Site Scripting (XSS) and SQL injection. This standard can be used to establish a level of confidence in the security of Web applications. The requirements were developed with the following objectives in mind:
 
-More information about the Champions: https://www.owasp.org/index.php/Security_Champions
+Use as a metric - Provide application developers and application owners with a yardstick with which to assess the degree of trust that can be placed in their Web applications,
+Use as guidance - Provide guidance to security control developers as to what to build into security controls in order to satisfy application security requirements, and
+Use during procurement - Provide a basis for specifying application security verification requirements in contracts.
 
-
-# What benefits do Champions bring to my company?
-Main advantages of having a team of Security Champions:
-* Scaling security through multiple teams
-* Engaging "non-security" folks
-* Establishing the security culture
-
-# Security Champions Playbook
-To keep it simple, I've listed six easy-to-follow steps with clarifications for each step.
-Chapters include general recommendations, links to known good sources as well as personal
-experience. I will be happy to hear your feedback and update the playbook. Current version:
+# ASVS Table of Contents
 
 ### [V1: Architecture, Design and Threat Modeling Requirements](Security%20Playbook/1.%20Identify%20teams.md)
 ### [V2: Authentication Verification Requirements](Security%20Playbook/2.%20Define%20the%20role.md)
