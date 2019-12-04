@@ -3,9 +3,9 @@
 # V1: Architecture, Design and Threat Modeling Requirements Table of Contents
 
 ### [V1.1: Secure Software Development Lifecycle Requirements](V1.1%20SSDLC.md)
-### [V1.2 Authentication Architectural Requirements](V1.2%20AUTH.md)
-### [V1.3 Session Management Architectural Requirements](V1.3%20SESSION.md)
-### [V1.4 Access Control Architectural Requirements](V1.4%20ACCESS.md)
+### [V1.2 Authentication Architectural Requirements](v1.2%20AUTH.md)
+### [V1.3 Session Management Architectural Requirements](v1.3%20SESSION.md)
+### [V1.4 Access Control Architectural Requirements](V1.4%20ACL.md)
 ### [V1.5 Input and Output Architectural Requirements](V1.5.md)
 ### [V1.6 Cryptographic Architectural Requirements](V1.5.md)
 ### [V1.7 Errors, Logging and Auditing Architectural Requirements](V1.5.md)
