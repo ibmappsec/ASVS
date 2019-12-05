@@ -6,7 +6,7 @@
 ### [V1.2 Authentication Architectural Requirements](v1.2%20AUTH.md)
 ### [V1.3 Session Management Architectural Requirements](v1.3%20SESSION.md)
 ### [V1.4 Access Control Architectural Requirements](v1.4%20ACL.md)
-### [V1.5 Input and Output Architectural Requirements](v1.5%20Input_Output_RequirementsL.md)
+### [V1.5 Input and Output Architectural Requirements](v1.5%20Input_Output_Requirements.md)
 ### [V1.6 Cryptographic Architectural Requirements](v1.6%20Cryptographic.md)
 ### [V1.7 Errors, Logging and Auditing Architectural Requirements](v1.7%20Errors_logging_Auditing.md)
 ### [V1.8 Data Protection and Privacy Architectural Requirements](v1.8%20Data_Protection.md)
