@@ -25,7 +25,7 @@ Use during procurement - Provide a basis for specifying application security ver
 # ASVS Table of Contents
 
 ### [V1: Architecture, Design and Threat Modeling Requirements](V1/README.md)
-### [V2: Authentication Verification Requirements](V2/v2.1.md)
+### [V2: Authentication Verification Requirements](V2/v2.1%20Password_Security_Requirements.md)
 ### [V3: Session Management Verification Requirements](V3/v3.1.md)
 ### [V4: Access Control Verification Requirements](V4/v4.1.md)
 ### [V5: Validation, Sanitization and Encoding Verification Requirements](V5/v5.1.md)
