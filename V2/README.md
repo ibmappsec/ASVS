@@ -9,7 +9,7 @@
 ### [V2.5 Credential Recovery Requirements](v2.5%20Credential_Recovery_Requirements.md)
 ### [V2.6 Lookup Secrets Verifier Requirements](v2.6%2520Lookup_Secrets_Verifier_Requirements.md)
 ### [V2.7 Out of Band Verifier Requirements](v2.7%2520Outt_Of_Band_Verifier_Requirements.md)
-### [V2.8 Single or Multi Factor One Time Verifier Requirements](v2.8%2520Password_Security_Requirements.md)
+### [V2.8 Single or Multi Factor One Time Verifier Requirements](v2.8%2520Single_or_Multi_Factor_One_Time_Verifier_Requirements.md)
 ### [V2.9 Cryptographic Software and Devices Verifier  Requirements](v2.9%2520Cryptographic_Software_Verifier_Requirements.md)
 ### [V2.10 Service Authentication Requirements](v2.1%2520Service_Authentication_Requirements.md)
 
