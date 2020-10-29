@@ -1,18 +1,19 @@
 
 
-# V2: Authentication Verification Requirements Table of Contents
+# V5: Validation, Sanitization and Encoding Verification Requirements
 
-### [V2.1: Password Security Requirements](v2.1%2520Password_Security_Requirements.md)
-### [V2.2 General Authenticator Requirements](v2.2%2520General_Authenticator_Requirements.md)
-### [V2.3 Authenticator Lifecycle Requirements](v2.3%2520Authenticator_Lifecycle_Requirements.md)
-### [V2.4 Credential Storage Requirements](v2.4%2520Credential_Storage_Requirements.md)
-### [V2.5 Credential Recovery Requirements](v2.5%20Credential_Recovery_Requirements.md)
-### [V2.6 Lookup Secrets Verifier Requirements](v2.6%2520Lookup_Secrets_Verifier_Requirements.md)
-### [V2.7 Out of Band Verifier Requirements](v2.7%2520Outt_Of_Band_Verifier_Requirements.md)
-### [V2.8 Single or Multi Factor One Time Verifier Requirements](v2.8%2520Password_Security_Requirements.md)
-### [V2.9 Cryptographic Software and Devices Verifier  Requirements](v2.9%2520Cryptographic_Software_Verifier_Requirements.md)
-### [V2.10 Service Authentication Requirements](v2.1%2520Service_Authentication_Requirements.md)
+The most common web application security weakness is the failure to properly validate input coming from the
+client or the environment before directly using it without any output encoding. This weakness leads to almost all of
+the significant vulnerabilities in web applications, such as Cross-Site Scripting (XSS), SQL injection, interpreter
+injection, locale/Unicode attacks, file system attacks, and buffer overflows.
 
 
----
-# Simplified diagram
+### [V5.1: Input Validation Requirements](v5.1_Input_Validation_Requirements.md)
+### [V5.2: Sanitization and Sandboxing Requirements](v5.2_Sanitization_and_Sandboxing_Requirements.md)
+### [V5.3: Output Encoding and Injection Prevention Requirements](v5.3_Output_Encoding_and_Injection_Prevention_Requirements.md)
+### [V5.4: Memory, String, and Unmanaged Code Requirements](v5.4_Memory_String_and_Unmanaged_Code_Requirements.md)
+### [V5.5: Deserialization Prevention Requirements](v5.5_Deserialization_Prevention_Requirements.md)
+### [References](references.md)
+
+[Main page](../README.md) | [<< Previous Chapter](../V4/README.md) |  [Next Chapter >>](../V6/README.md)
+| --- | --- | --- |

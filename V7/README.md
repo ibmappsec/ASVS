@@ -1,18 +1,27 @@
 
 
-# V2: Authentication Verification Requirements Table of Contents
+# V7: Error Handling and Logging Verification Requirements
 
-### [V2.1: Password Security Requirements](v2.1%2520Password_Security_Requirements.md)
-### [V2.2 General Authenticator Requirements](v2.2%2520General_Authenticator_Requirements.md)
-### [V2.3 Authenticator Lifecycle Requirements](v2.3%2520Authenticator_Lifecycle_Requirements.md)
-### [V2.4 Credential Storage Requirements](v2.4%2520Credential_Storage_Requirements.md)
-### [V2.5 Credential Recovery Requirements](v2.5%20Credential_Recovery_Requirements.md)
-### [V2.6 Lookup Secrets Verifier Requirements](v2.6%2520Lookup_Secrets_Verifier_Requirements.md)
-### [V2.7 Out of Band Verifier Requirements](v2.7%2520Outt_Of_Band_Verifier_Requirements.md)
-### [V2.8 Single or Multi Factor One Time Verifier Requirements](v2.8%2520Password_Security_Requirements.md)
-### [V2.9 Cryptographic Software and Devices Verifier  Requirements](v2.9%2520Cryptographic_Software_Verifier_Requirements.md)
-### [V2.10 Service Authentication Requirements](v2.1%2520Service_Authentication_Requirements.md)
+## Control Objective
+The primary objective of error handling and logging is to provide useful information for the user, administrators,
+and incident response teams. The objective is not to create massive amounts of logs, but high quality logs, with
+more signal than discarded noise.
+High quality logs will often contain sensitive data, and must be protected as per local data privacy laws or
+directives. This should include:
+* Not collecting or logging sensitive information unless specifically required.
+* Ensuring all logged information is handled securely and protected as per its data classification.
+* Ensuring that logs are not stored forever, but have an absolute lifetime that is as short as possible.
+If logs contain private or sensitive data, the definition of which varies from country to country, the logs become
+some of the most sensitive information held by the application and thus very attractive to attackers in their own
+right.
+It is also important to ensure that the application fails securely and that errors do not disclose unnecessary
+information.
 
+### [V7.1: Log Content Requirements](v7.1_Log_Content_Requirements.md)
+### [V7.2: Log Content Requirements](v7.2_Log_Processing_Requirements.md)
+### [V7.3: Log Content Requirements](v7.3_Log_Protection_Requirements.md)
+### [V7.4: Log Content Requirements](v7.4_Error_Handling.md)
+### [References](references.md)
 
----
-# Simplified diagram
+[Main page](../README.md) | [<< Previous Chapter](../V6/README.md) |  [Next Chapter >>](../V8/README.md)
+| --- | --- | --- |

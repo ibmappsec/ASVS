@@ -30,7 +30,7 @@ Use during procurement - Provide a basis for specifying application security ver
 ### [V4: Access Control Verification Requirements](V4/README.md)
 ### [V5: Validation, Sanitization and Encoding Verification Requirements](V5/README.md)
 ### [V6: Stored Cryptography Verification Requirements](V6/README.md)
-### [V7: Error Handling and Logging Verification Requirements](V7/v7.1.md)
+### [V7: Error Handling and Logging Verification Requirements](V7/README.md)
 ### [V8: Data Protection Verification Requirements](V8/README.md)
 ### [V9: Communications Verification Requirements](V9/README.md)
 ### [V10: Malicious Code Verification Requirements](V10/README.md)
@@ -38,5 +38,8 @@ Use during procurement - Provide a basis for specifying application security ver
 ### [V12: File and Resources Verification Requirements](V12/README.md)
 ### [V13: API and Web Service Verification Requirements](V13/README.md)
 ### [V14: Configuration Verification Requirements](V14/README.md)
+### [Glossary](glossary.md)
+### [References](references.md)
+### [Internet of Things Requirements](iot_requirements.md)
 
 ---

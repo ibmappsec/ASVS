@@ -1,18 +1,18 @@
 
 
-# V2: Authentication Verification Requirements Table of Contents
+# V13: API and Web Service Verification Requirements
+## Control Objective
+Ensure that a verified application that uses trusted service layer APIs (commonly using JSON or XML or GraphQL) has:
+* Adequate authentication, session management and authorization of all web services.
+* Input validation of all parameters that transit from a lower to higher trust level.
+* Effective security controls for all API types, including cloud and Serverless API
+Please read this chapter in combination with all other chapters at this same level; we no longer duplicate authentication or API session management concerns.
 
-### [V2.1: Password Security Requirements](v2.1%2520Password_Security_Requirements.md)
-### [V2.2 General Authenticator Requirements](v2.2%2520General_Authenticator_Requirements.md)
-### [V2.3 Authenticator Lifecycle Requirements](v2.3%2520Authenticator_Lifecycle_Requirements.md)
-### [V2.4 Credential Storage Requirements](v2.4%2520Credential_Storage_Requirements.md)
-### [V2.5 Credential Recovery Requirements](v2.5%20Credential_Recovery_Requirements.md)
-### [V2.6 Lookup Secrets Verifier Requirements](v2.6%2520Lookup_Secrets_Verifier_Requirements.md)
-### [V2.7 Out of Band Verifier Requirements](v2.7%2520Outt_Of_Band_Verifier_Requirements.md)
-### [V2.8 Single or Multi Factor One Time Verifier Requirements](v2.8%2520Password_Security_Requirements.md)
-### [V2.9 Cryptographic Software and Devices Verifier  Requirements](v2.9%2520Cryptographic_Software_Verifier_Requirements.md)
-### [V2.10 Service Authentication Requirements](v2.1%2520Service_Authentication_Requirements.md)
+### [V13.1 Generic Web Service Security Verification Requirements](v13.1_Generic_Web_Service_Security_Verification_Requirements.md)
+### [V13.2 RESTful Web Service Verification Requirements](v13.2_RESTful_Web_Service_Verification_Requirements.md)
+### [V13.3 SOAP Web Service Verification Requirements](v13.3_SOAP_Web_Service_Verification_Requirements.md)
+### [V13.4 GraphQL and other Web Service Data Layer Security Requirements](v13.4_GraphQL_and_Other_Web_Service_Data_Layer_Security_Requirements.md)
+### [References](references.md)
 
-
----
-# Simplified diagram
+[Main page](../README.md) | [<< Previous Chapter](../V12/README.md) |  [Next Chapter >>](../V14/README.md)
+| --- | --- | --- |
