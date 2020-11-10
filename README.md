@@ -1,6 +1,5 @@
 # Application Security Verification Standard (ASVS) Intro
-The Application Security Verification Standard (ASVS) Project provides a basis for testing web application technical security controls and also provides developers with a list of requirements for secure development.
-https://www.owasp.org/index.php/Category:OWASP_Application_Security_Verification_Standard_Project
+The Application Security Verification Standard ([ASVS](https://www.owasp.org/index.php/Category:OWASP_Application_Security_Verification_Standard_Project)) Project provides a basis for testing web application technical security controls and also provides developers with a list of requirements for secure development.
 
 # How to implement this standard
 The Application Security Verification Standard defines three security verification levels, with each level increasing
